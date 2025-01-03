@@ -1,0 +1,13 @@
+services:
+  opendkim:
+    build: opendkim
+    restart: always
+    ports:
+      - "8891:8891"
+
+  postfix:
+    build: postfix
+    command: tech-director.ru bx:5iHrOFs6SaO3
+    restart: always
+    ports:
+      - "25:25"

@@ -1,0 +1,2 @@
+default._domainkey	IN	TXT	( "v=DKIM1; k=rsa; "
+	  "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC58D1P2OppLaeLMm+KFcE/AfFUIqnn5xAKozeYtqsmVOuCidz4ZgpBDevz2F8ItCJBXa0/nPRf+IFnN9kii+5m/HLBxL/3CyUidKnJwpj+7vAX7UxlJzXXphnPbSg3RvxTbwYuPTYAOrJY9g84Of4ijXAs9Cvr09ld4dnXzuVBIQIDAQAB" )  ; ----- DKIM key default for archivarius.pro
